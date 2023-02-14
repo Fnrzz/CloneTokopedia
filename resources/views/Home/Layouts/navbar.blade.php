@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-12 mt-2 d-none" id="kategori">
-                <livewire:kategori />
+                @livewire('kategori')
             </div>
         </div>
     </div>
