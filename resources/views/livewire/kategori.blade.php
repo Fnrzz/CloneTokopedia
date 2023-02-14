@@ -4,6 +4,7 @@
             @foreach ($category as $category)
                 <div class="row">
                     <a>{{ $category->name }}</a>
+                    <input type="hidden" value="{{ $category->id }}" id="category_id">
                 </div>
             @endforeach
         </div>
