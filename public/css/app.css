@@ -2,3 +2,10 @@ body{
     height: 200vh;
 }
 
+#content{
+    padding-top: 2.5vw;
+}
+
+.carousel-inner{
+    border-radius: 15px;
+}
