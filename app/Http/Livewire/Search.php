@@ -2,12 +2,19 @@
 
 namespace App\Http\Livewire;
 
+use App\Http\Controllers\ProductController;
 use Livewire\Component;
 
 class Search extends Component
 {
+    public $message = '';
+
     public function render()
     {
-        return view('livewire.search');
+        $products = new ProductController;
+        $data = [
+            'products' => $products->getProduct($this->message)
+        ]; 
+        return view('livewire.search',$data);
     }
 }

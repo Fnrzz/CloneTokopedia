@@ -15,11 +15,7 @@
                             <a class="nav-link" type="button" id="toggleKategori">Kategori</a>
                         </li>
                         <div class="nav-item">
-                            <div class="input-group input-group-sm search">
-                                <span class="input-group-text bg-white" id="search"><i
-                                        class="bi bi-search"></i></span>
-                                <input type="text" class="form-control" aria-describedby="search">
-                            </div>
+                            @livewire('search')
                         </div>
                         <li class="nav-item mx-2">
                             <a class="nav-link icon" href="#"><i class="bi bi-cart-fill"></i></a>

@@ -12,4 +12,9 @@ class ProductController extends Controller
         $data = Product::all();
         return $data;
     }
+
+    public function getProduct($name){
+        $data = Product::where('name','like','%'.$name.'%')->get();
+        return $data;
+    }
 }

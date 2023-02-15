@@ -80,6 +80,28 @@
     color: #03AC0E;
 }
 
+.list-search{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 30px;
+    width: 50vw;
+    position: fixed;
+    background-color: white;
+    z-index: 99999;
+}
+
+.list-search a{
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 1vw;
+    text-decoration: none;
+    color: black;
+}
+
+.list-search a:hover{
+    background-color: #F1F1F1;
+}
+
 @media screen and (max-width:994px) {
     .navbar{
         display: none;
