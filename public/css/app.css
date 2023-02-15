@@ -9,3 +9,29 @@ body{
 .carousel-inner{
     border-radius: 15px;
 }
+
+#card-menu{
+    padding-top: 2.5vw;
+}
+
+#card-menu .card{
+    border-radius: 15px;
+}
+
+.card-category-choose .card-body{
+    height: 12vw;
+}
+
+.card-category-choose img{
+    border-radius: 15px;
+}
+
+.card-category-choose .card-title{
+    font-size: 1vw;
+}
+
+@media  screen and (max-width:994px) {
+    .app{
+        display: none;
+    }
+}

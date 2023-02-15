@@ -24,4 +24,21 @@
             </div>
         </div>
     </section>
+
+    <section id="card-menu">
+        <div class="container">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            @livewire('category-choose')
+                        </div>
+                        <div class="col-6">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

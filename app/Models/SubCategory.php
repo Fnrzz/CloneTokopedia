@@ -11,7 +11,11 @@ class SubCategory extends Model
 
     protected $guarded = ['id'];
 
-    public function Category(){
+    public function category(){
         return $this->belongsTo(Category::class);
+    }
+
+    public function categorychoose(){
+        return $this->hasMany(CategoryChoose::class);
     }
 }
