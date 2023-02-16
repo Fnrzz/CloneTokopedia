@@ -24,6 +24,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="button-menu-wrapper">
+                        @livewire('button-menu')
+                    </div>
                 </div>
             </div>
         </div>
