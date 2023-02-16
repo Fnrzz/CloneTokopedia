@@ -13,7 +13,6 @@ class HomeController extends Controller
         $product = new ProductController;
         $data = [
             'products' => $product->show(),
-            'banners' => Banner::all()
         ];
         return view('Home/index',$data);
     }
