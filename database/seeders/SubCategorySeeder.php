@@ -50,6 +50,11 @@ class SubCategorySeeder extends Seeder
         // -----------------------------------------------------------------------------------------------------
         SubCategory::create([
             'category_id' => 2,
+            'name' => 'Earphone'
+        ]);
+
+        SubCategory::create([
+            'category_id' => 2,
             'name' => 'Konektor Kamera'
         ]);
         SubCategory::create([

@@ -31,4 +31,8 @@
             </div>
         </div>
     </section>
+
+    <section id="traktiran">
+        @livewire('traktiran')
+    </section>
 @endsection
