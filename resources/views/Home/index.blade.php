@@ -32,6 +32,16 @@
         </div>
     </section>
 
+    <section id="banner2">
+        <div class="container mt-5">
+            <div class="row">
+                <a href="">
+                    <img src="{{ asset('/storage/banner/banner5.jpg') }}" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </section>
+
     <section id="traktiran">
         @livewire('traktiran')
     </section>

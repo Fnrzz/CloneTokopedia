@@ -1,36 +1,36 @@
-.app{
-    height: 200vh;
+.app {
+    height: 500vh;
 }
 
-#content{
+#content {
     padding-top: 2.5vw;
 }
 
-.carousel-inner{
+.carousel-inner {
     border-radius: 15px;
 }
 
-#card-menu{
+#card-menu {
     padding-top: 2.5vw;
 }
 
-#card-menu .card{
+#card-menu .card {
     border-radius: 15px;
 }
 
-.card-category-choose .card-body{
+.card-category-choose .card-body {
     height: 12vw;
 }
 
-.card-category-choose img{
+.card-category-choose img {
     border-radius: 15px;
 }
 
-.card-category-choose .card-title{
+.card-category-choose .card-title {
     font-size: 1vw;
 }
 
-.card-topup .card-topup-menu button{
+.card-topup .card-topup-menu button {
     font-size: 1vw;
     width: 100%;
     font-weight: bold;
@@ -39,24 +39,24 @@
     color: #6D7797;
 }
 
-.card-topup .card-topup-menu button:focus{
+.card-topup .card-topup-menu button:focus {
     color: #03AC0E;
     border-bottom: 5px solid #03AC0E;
 }
 
-.card-topup .card-topup-input label{
+.card-topup .card-topup-input label {
     font-weight: bold;
     font-size: 0.9vw;
     color: #6D7797;
 }
 
-.card-topup .card-topup-input .btn-buy{
+.card-topup .card-topup-input .btn-buy {
     width: 100%;
     background-color: #03AC0E;
     color: white;
 }
 
-#card-menu .button-menu-wrapper{
+#card-menu .button-menu-wrapper {
     overflow: auto hidden;
     white-space: nowrap;
     transition: all 0.5s ease 0s;
@@ -65,26 +65,26 @@
     margin-top: 30px;
 }
 
-#card-menu .button-menu-wrapper .btn-menu{
+#card-menu .button-menu-wrapper .btn-menu {
     display: flex;
     -webkit-box-align: center;
     align-items: center;
     margin-right: 8px;
     border-radius: 16px;
     border: 1px solid rgb(229, 231, 233);
-    background-color: var(--NN0,#FFFFFF);
+    background-color: var(--NN0, #FFFFFF);
     padding: 6px 12px;
     text-decoration: none;
 }
 
-.btn-menu img{
+.btn-menu img {
     width: 24px;
     height: 24px;
     object-fit: contain;
     margin-right: 8px;
 }
 
-.btn-menu span{
+.btn-menu span {
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -94,8 +94,8 @@
     color: rgba(49, 53, 59, 0.68);
 }
 
-@media  screen and (max-width:994px) {
-    .app{
+@media screen and (max-width:994px) {
+    .app {
         display: none;
     }
 }
