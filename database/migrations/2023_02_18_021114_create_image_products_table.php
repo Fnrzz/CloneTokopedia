@@ -15,7 +15,6 @@ return new class extends Migration
     {
         Schema::create('image_products', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('product_id');
             $table->string('name');
             $table->timestamps();
         });

@@ -20,11 +20,7 @@
                     @foreach ($products as $product)
                         <div class="card">
                             <a href="" class="text-decoration-none text-dark">
-                                @foreach ($images as $image)
-                                    @if ($image->product_id == $product->id)
-                                        <img src="{{ $image->name }}" class="card-img-top rounded">
-                                    @endif
-                                @endforeach
+                                <img src="{{ $product->imageproduct->name }}" class="card-img-top rounded">
                                 <div class="card-body">
                                     <h6 class="fw-bold mt-2">Rp. {{ number_format($product->price, 0, ',', '.') }}</h6>
                                     <div class="progress" role="progressbar" aria-valuenow="75" aria-valuemin="0"

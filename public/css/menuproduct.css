@@ -63,10 +63,14 @@
 .traktiran-corusel {
     white-space: nowrap;
     line-height: 0;
-    overflow: auto hidden;
+    overflow: hidden;
     padding-left: 0px;
     padding-right: 83.3333%;
     display: flex;
+}
+
+.traktiran-corusel:hover {
+    overflow: auto;
 }
 
 .traktiran-corusel .card {
